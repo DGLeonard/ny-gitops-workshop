@@ -18,10 +18,10 @@ org_settings:
     host_expiry_window: 30
   server_settings:
     server_url: $FLEET_URL
-    org_info:
-      org_name: Fleet
-    secrets:
-      - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
-    features:
-      enable_host_users: true
-      enable_software_inventory: true
+  org_info:
+    org_name: Fleet
+  secrets:
+    - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
+  features:
+    enable_host_users: true
+    enable_software_inventory: true
