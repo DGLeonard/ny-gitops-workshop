@@ -2,4 +2,4 @@
 # Documentation: https://fleetdm.com/docs/configuration/yaml-files#packages
 url: https://zoom.us/client/latest/ZoomInstallerIT.pkg
 post_install_script:
-  path: ../lib/macos/scripts/zoom-config.sh
+  path: ../scripts/zoom-config.sh
